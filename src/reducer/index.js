@@ -16,7 +16,7 @@ const initialState = {
     title:'',
 }
 
-function rootReducer (state = initialState, action){
+const rootReducer = (state = initialState, action)=>{
     switch(action.type){
         case POST_INIT_RECIPES:
             return {
