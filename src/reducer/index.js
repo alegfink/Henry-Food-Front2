@@ -164,6 +164,4 @@ const rootReducer = (state = initialState, action)=>{
 
 
 
-module.exports={
-    rootReducer
-}
+export default rootReducer;
